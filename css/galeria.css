@@ -1,71 +1,71 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 .inicio {
-    background-color: aqua;
-    padding: 20px;
-    justify-content: center;
-    align-items: center;
+  background-color: aqua;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 nav {
-    justify-content: center;
-    align-items: center;
-    background-color: #3b3b3b;
-    overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b3b3b;
+  overflow: hidden;
 }
 
 nav a {
-    color: #fff;
-    padding: 2px;
-    text-align: center;
-    text-decoration: none;
-    float: left;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 15px;
+  color: #fff;
+  padding: 20px 32px 20px;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+  display: flex;
+  flex-grow: 3;
+  align-items: center;
+  justify-content: center;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 nav a:hover {
-    background-color: #575757;
+  background-color: #575757;
 }
 #galeria {
-    padding: 20px;
-    background-color: #fff;
+  padding: 20px;
+  background-color: #fff;
 }
 
 .galeria {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
-
 .galeria img {
-    width: 100%;
-    height: auto;
-    max-width: 180px;
-    border-radius: 0;
+  width: 100%;
+  height: auto;
+  max-width: 180px;
+  border-radius: 0;
 }
 
 footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
 }
