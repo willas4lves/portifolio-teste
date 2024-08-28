@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
 }
-.inicio{
+.inicio {
     background-color: aqua;
     padding: 20px;
     justify-content: center;
@@ -25,14 +25,14 @@ nav {
 
 nav a {
     color: #fff;
-    padding: 20px 32px 20px;
+    padding: 2px;
     text-align: center;
     text-decoration: none;
     float: left;
     display: flex;
-    flex-grow: 3;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 0 15px;
 }
 
 nav ul {
@@ -51,6 +51,7 @@ nav a:hover {
 .galeria {
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 
